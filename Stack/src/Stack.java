@@ -12,6 +12,9 @@ public class Stack {
 
 
     public void push(StackNode n){
+        size++;
+        n.setParent(top);
+        top=n;
 
 
 
