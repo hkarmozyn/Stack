@@ -21,7 +21,10 @@ public class Stack {
     }
 
 
-    public StackNode pop(){
+    public  <T> pop(){
+       StackNode oldTop = top;
+       return oldTop.getData();
+
 
 
     }
