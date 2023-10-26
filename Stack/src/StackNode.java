@@ -2,7 +2,6 @@ public class StackNode<T> {
 
     private T data; //Data stored in the node
     private StackNode parent; //Reference to the parent node
-    private StackNode child; //Reference to the child node
 
     //Default constructor
     public StackNode() {
@@ -15,10 +14,9 @@ public class StackNode<T> {
     }
 
     //Constructor that sets data, parent, and child
-    public StackNode(T data, StackNode parent, StackNode child) {
+    public StackNode(T data, StackNode parent) {
         this.data = data;
         this.parent = parent;
-        this.child = child;
     }
 
     //Returns the data stored in the node
@@ -31,13 +29,6 @@ public class StackNode<T> {
         this.data = data;
     }
 
-    public StackNode getChild() {
-        return child;
-    }
-
-    public void setChild(StackNode n) {
-        child = n;
-    }
 
     public StackNode getParent() {
         return parent;

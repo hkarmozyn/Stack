@@ -11,9 +11,9 @@ public class Stack <T> {
 
 
 
-    public void push(StackNode n){
+    public void push(T data){
         size++;
-        n.setParent(top);
+        StackNode n = new StackNode(data, top);
         top=n;
 
 
@@ -22,6 +22,7 @@ public class Stack <T> {
 
 
     public  T pop(){
+        size--;
        StackNode oldTop = top;
        top=top.getParent();
        return (T)oldTop.getData();
@@ -30,12 +31,20 @@ public class Stack <T> {
 
 
     }
-    public StackNode peek(){
-
+    public T peek(){
+        return (T)top.getData();
     }
     public int getSize(){
         return size;
 
+    }
+
+    public boolean isEmpty(){
+        if(size==0){
+            return true;
+        }else{
+            return false;
+        }
     }
 
 
