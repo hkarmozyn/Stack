@@ -1,3 +1,8 @@
+/*
+Hk
+10/11/23
+Cz
+ */
 public class StackNode<T> {
 
     private T data; //Data stored in the node

@@ -1,3 +1,8 @@
+/*
+HK
+10/11/23
+CZ
+ */
 public class Stack <T> {
 
     private int size; // size
