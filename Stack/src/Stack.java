@@ -1,4 +1,4 @@
-public class Stack {
+public class Stack <T> {
 
     private int size;
     private StackNode top;
@@ -21,9 +21,11 @@ public class Stack {
     }
 
 
-    public  <T> pop(){
+    public  T pop(){
        StackNode oldTop = top;
-       return oldTop.getData();
+       top=top.getParent();
+       return (T)oldTop.getData();
+
 
 
 
