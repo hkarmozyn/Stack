@@ -1,31 +1,31 @@
 public class Stack <T> {
 
-    private int size;
-    private StackNode top;
+    private int size; // size
+    private StackNode top; // top element
 
 
 
-    Stack(){
+    Stack(){ // default constructer
 
     }
 
 
 
-    public void push(T data){
-        size++;
+    public void push(T data){ // push method
+        size++; // adds to size
         StackNode n = new StackNode(data, top);
-        top=n;
+        top=n; // sets top to add element
 
 
 
     }
 
 
-    public  T pop(){
-        size--;
+    public  T pop(){ // pop method
+        size--; // subtracts from the 1 from the size
        StackNode oldTop = top;
-       top=top.getParent();
-       return (T)oldTop.getData();
+       top=top.getParent(); // sets the new top
+       return (T)oldTop.getData(); // returns the deleted element
 
 
 
@@ -33,13 +33,13 @@ public class Stack <T> {
     }
     public T peek(){
         return (T)top.getData();
-    }
-    public int getSize(){
+    } // peek method returns the element
+    public int getSize(){ // returns the size
         return size;
 
     }
 
-    public boolean isEmpty(){
+    public boolean isEmpty(){ // is empty
         if(size==0){
             return true;
         }else{

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89165442-a754-4248-82eb-f0ed2fae8b81" name="Changes" comment="Finished Pop Class">
+    <list default="true" id="89165442-a754-4248-82eb-f0ed2fae8b81" name="Changes" comment="Finished all tests, and finalized class without comments!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StackNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StackNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="IsEmpty" />
+        <entry key="$PROJECT_DIR$/.." value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -119,7 +117,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698172538968</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finished Tests">
+      <created>1698335793690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698335793690</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Finished all tests, and finalized class without comments!">
+      <created>1698335904137</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698335904137</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,6 +151,8 @@
     <MESSAGE value="created the push class" />
     <MESSAGE value="Worked on pop method" />
     <MESSAGE value="Day one work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day one work" />
+    <MESSAGE value="Finished Tests" />
+    <MESSAGE value="Finished all tests, and finalized class without comments!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished all tests, and finalized class without comments!" />
   </component>
 </project>
